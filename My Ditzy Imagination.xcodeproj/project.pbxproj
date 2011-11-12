@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A9D069146F131E0075ED6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D068146F131E0075ED6C /* UIKit.framework */; };
+		A6A9D06B146F131E0075ED6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D06A146F131E0075ED6C /* Foundation.framework */; };
+		A6A9D06D146F131E0075ED6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D06C146F131E0075ED6C /* CoreGraphics.framework */; };
+		A6A9D073146F131E0075ED6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A9D071146F131E0075ED6C /* InfoPlist.strings */; };
+		A6A9D075146F131E0075ED6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D074146F131E0075ED6C /* main.m */; };
+		A6A9D079146F131E0075ED6C /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D078146F131E0075ED6C /* MCAppDelegate.m */; };
+		A6A9D07C146F131E0075ED6C /* MCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D07B146F131E0075ED6C /* MCRootViewController.m */; };
+		A6A9D07F146F131E0075ED6C /* MCDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D07E146F131E0075ED6C /* MCDataViewController.m */; };
+		A6A9D082146F131E0075ED6C /* MCModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D081146F131E0075ED6C /* MCModelController.m */; };
+		A6A9D085146F131E0075ED6C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A9D083146F131E0075ED6C /* MainStoryboard_iPhone.storyboard */; };
+		A6A9D088146F131E0075ED6C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A9D086146F131E0075ED6C /* MainStoryboard_iPad.storyboard */; };
+		A6A9D090146F131E0075ED6C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D08F146F131E0075ED6C /* SenTestingKit.framework */; };
+		A6A9D091146F131E0075ED6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D068146F131E0075ED6C /* UIKit.framework */; };
+		A6A9D092146F131E0075ED6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D06A146F131E0075ED6C /* Foundation.framework */; };
+		A6A9D09A146F131E0075ED6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A9D098146F131E0075ED6C /* InfoPlist.strings */; };
+		A6A9D09D146F131E0075ED6C /* My_Ditzy_ImaginationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D09C146F131E0075ED6C /* My_Ditzy_ImaginationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A9D093146F131E0075ED6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A9D05B146F131E0075ED6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A9D063146F131E0075ED6C;
+			remoteInfo = "My Ditzy Imagination";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A9D064146F131E0075ED6C /* My Ditzy Imagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Ditzy Imagination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A9D068146F131E0075ED6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6A9D06A146F131E0075ED6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6A9D06C146F131E0075ED6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6A9D070146F131E0075ED6C /* My Ditzy Imagination-Info.plist */ = {isa = PBXFileReference; path = "My Ditzy Imagination-Info.plist"; sourceTree = "<group>"; };
+		A6A9D072146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6A9D074146F131E0075ED6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A9D076146F131E0075ED6C /* My Ditzy Imagination-Prefix.pch */ = {isa = PBXFileReference; path = "My Ditzy Imagination-Prefix.pch"; sourceTree = "<group>"; };
+		A6A9D077146F131E0075ED6C /* MCAppDelegate.h */ = {isa = PBXFileReference; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		A6A9D078146F131E0075ED6C /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		A6A9D07A146F131E0075ED6C /* MCRootViewController.h */ = {isa = PBXFileReference; path = MCRootViewController.h; sourceTree = "<group>"; };
+		A6A9D07B146F131E0075ED6C /* MCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCRootViewController.m; sourceTree = "<group>"; };
+		A6A9D07D146F131E0075ED6C /* MCDataViewController.h */ = {isa = PBXFileReference; path = MCDataViewController.h; sourceTree = "<group>"; };
+		A6A9D07E146F131E0075ED6C /* MCDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDataViewController.m; sourceTree = "<group>"; };
+		A6A9D080146F131E0075ED6C /* MCModelController.h */ = {isa = PBXFileReference; path = MCModelController.h; sourceTree = "<group>"; };
+		A6A9D081146F131E0075ED6C /* MCModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCModelController.m; sourceTree = "<group>"; };
+		A6A9D084146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A6A9D087146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A6A9D08E146F131E0075ED6C /* My Ditzy ImaginationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Ditzy ImaginationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A9D08F146F131E0075ED6C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6A9D097146F131E0075ED6C /* My Ditzy ImaginationTests-Info.plist */ = {isa = PBXFileReference; path = "My Ditzy ImaginationTests-Info.plist"; sourceTree = "<group>"; };
+		A6A9D099146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6A9D09B146F131E0075ED6C /* My_Ditzy_ImaginationTests.h */ = {isa = PBXFileReference; path = My_Ditzy_ImaginationTests.h; sourceTree = "<group>"; };
+		A6A9D09C146F131E0075ED6C /* My_Ditzy_ImaginationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Ditzy_ImaginationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A9D061146F131E0075ED6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9D069146F131E0075ED6C /* UIKit.framework in Frameworks */,
+				A6A9D06B146F131E0075ED6C /* Foundation.framework in Frameworks */,
+				A6A9D06D146F131E0075ED6C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9D08A146F131E0075ED6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9D090146F131E0075ED6C /* SenTestingKit.framework in Frameworks */,
+				A6A9D091146F131E0075ED6C /* UIKit.framework in Frameworks */,
+				A6A9D092146F131E0075ED6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A9D059146F131E0075ED6C = {
+			isa = PBXGroup;
+			children = (
+				A6A9D06E146F131E0075ED6C /* My Ditzy Imagination */,
+				A6A9D095146F131E0075ED6C /* My Ditzy ImaginationTests */,
+				A6A9D067146F131E0075ED6C /* Frameworks */,
+				A6A9D065146F131E0075ED6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A9D065146F131E0075ED6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9D064146F131E0075ED6C /* My Ditzy Imagination.app */,
+				A6A9D08E146F131E0075ED6C /* My Ditzy ImaginationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A9D067146F131E0075ED6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9D068146F131E0075ED6C /* UIKit.framework */,
+				A6A9D06A146F131E0075ED6C /* Foundation.framework */,
+				A6A9D06C146F131E0075ED6C /* CoreGraphics.framework */,
+				A6A9D08F146F131E0075ED6C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A9D06E146F131E0075ED6C /* My Ditzy Imagination */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9D077146F131E0075ED6C /* MCAppDelegate.h */,
+				A6A9D078146F131E0075ED6C /* MCAppDelegate.m */,
+				A6A9D07A146F131E0075ED6C /* MCRootViewController.h */,
+				A6A9D07B146F131E0075ED6C /* MCRootViewController.m */,
+				A6A9D07D146F131E0075ED6C /* MCDataViewController.h */,
+				A6A9D07E146F131E0075ED6C /* MCDataViewController.m */,
+				A6A9D080146F131E0075ED6C /* MCModelController.h */,
+				A6A9D081146F131E0075ED6C /* MCModelController.m */,
+				A6A9D083146F131E0075ED6C /* MainStoryboard_iPhone.storyboard */,
+				A6A9D086146F131E0075ED6C /* MainStoryboard_iPad.storyboard */,
+				A6A9D06F146F131E0075ED6C /* Supporting Files */,
+			);
+			path = "My Ditzy Imagination";
+			sourceTree = "<group>";
+		};
+		A6A9D06F146F131E0075ED6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9D070146F131E0075ED6C /* My Ditzy Imagination-Info.plist */,
+				A6A9D071146F131E0075ED6C /* InfoPlist.strings */,
+				A6A9D074146F131E0075ED6C /* main.m */,
+				A6A9D076146F131E0075ED6C /* My Ditzy Imagination-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6A9D095146F131E0075ED6C /* My Ditzy ImaginationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9D09B146F131E0075ED6C /* My_Ditzy_ImaginationTests.h */,
+				A6A9D09C146F131E0075ED6C /* My_Ditzy_ImaginationTests.m */,
+				A6A9D096146F131E0075ED6C /* Supporting Files */,
+			);
+			path = "My Ditzy ImaginationTests";
+			sourceTree = "<group>";
+		};
+		A6A9D096146F131E0075ED6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9D097146F131E0075ED6C /* My Ditzy ImaginationTests-Info.plist */,
+				A6A9D098146F131E0075ED6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A9D063146F131E0075ED6C /* My Ditzy Imagination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A9D0A0146F131E0075ED6C /* Build configuration list for PBXNativeTarget "My Ditzy Imagination" */;
+			buildPhases = (
+				A6A9D060146F131E0075ED6C /* Sources */,
+				A6A9D061146F131E0075ED6C /* Frameworks */,
+				A6A9D062146F131E0075ED6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Ditzy Imagination";
+			productName = "My Ditzy Imagination";
+			productReference = A6A9D064146F131E0075ED6C /* My Ditzy Imagination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A9D08D146F131E0075ED6C /* My Ditzy ImaginationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A9D0A3146F131E0075ED6C /* Build configuration list for PBXNativeTarget "My Ditzy ImaginationTests" */;
+			buildPhases = (
+				A6A9D089146F131E0075ED6C /* Sources */,
+				A6A9D08A146F131E0075ED6C /* Frameworks */,
+				A6A9D08B146F131E0075ED6C /* Resources */,
+				A6A9D08C146F131E0075ED6C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A9D094146F131E0075ED6C /* PBXTargetDependency */,
+			);
+			name = "My Ditzy ImaginationTests";
+			productName = "My Ditzy ImaginationTests";
+			productReference = A6A9D08E146F131E0075ED6C /* My Ditzy ImaginationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A9D05B146F131E0075ED6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A6A9D05E146F131E0075ED6C /* Build configuration list for PBXProject "My Ditzy Imagination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6A9D059146F131E0075ED6C;
+			productRefGroup = A6A9D065146F131E0075ED6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A9D063146F131E0075ED6C /* My Ditzy Imagination */,
+				A6A9D08D146F131E0075ED6C /* My Ditzy ImaginationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A9D062146F131E0075ED6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9D073146F131E0075ED6C /* InfoPlist.strings in Resources */,
+				A6A9D085146F131E0075ED6C /* MainStoryboard_iPhone.storyboard in Resources */,
+				A6A9D088146F131E0075ED6C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9D08B146F131E0075ED6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9D09A146F131E0075ED6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6A9D08C146F131E0075ED6C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A9D060146F131E0075ED6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9D075146F131E0075ED6C /* main.m in Sources */,
+				A6A9D079146F131E0075ED6C /* MCAppDelegate.m in Sources */,
+				A6A9D07C146F131E0075ED6C /* MCRootViewController.m in Sources */,
+				A6A9D07F146F131E0075ED6C /* MCDataViewController.m in Sources */,
+				A6A9D082146F131E0075ED6C /* MCModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9D089146F131E0075ED6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9D09D146F131E0075ED6C /* My_Ditzy_ImaginationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A9D094146F131E0075ED6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A9D063146F131E0075ED6C /* My Ditzy Imagination */;
+			targetProxy = A6A9D093146F131E0075ED6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A9D071146F131E0075ED6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A9D072146F131E0075ED6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6A9D083146F131E0075ED6C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A9D084146F131E0075ED6C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A9D086146F131E0075ED6C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A9D087146F131E0075ED6C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A9D098146F131E0075ED6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A9D099146F131E0075ED6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A9D09E146F131E0075ED6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A9D09F146F131E0075ED6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A9D0A1146F131E0075ED6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
+				INFOPLIST_FILE = "My Ditzy Imagination/My Ditzy Imagination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6A9D0A2146F131E0075ED6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
+				INFOPLIST_FILE = "My Ditzy Imagination/My Ditzy Imagination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6A9D0A4146F131E0075ED6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Ditzy Imagination.app/My Ditzy Imagination";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
+				INFOPLIST_FILE = "My Ditzy ImaginationTests/My Ditzy ImaginationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A6A9D0A5146F131E0075ED6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Ditzy Imagination.app/My Ditzy Imagination";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
+				INFOPLIST_FILE = "My Ditzy ImaginationTests/My Ditzy ImaginationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A9D05E146F131E0075ED6C /* Build configuration list for PBXProject "My Ditzy Imagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9D09E146F131E0075ED6C /* Debug */,
+				A6A9D09F146F131E0075ED6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A9D0A0146F131E0075ED6C /* Build configuration list for PBXNativeTarget "My Ditzy Imagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9D0A1146F131E0075ED6C /* Debug */,
+				A6A9D0A2146F131E0075ED6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A9D0A3146F131E0075ED6C /* Build configuration list for PBXNativeTarget "My Ditzy ImaginationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9D0A4146F131E0075ED6C /* Debug */,
+				A6A9D0A5146F131E0075ED6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A9D05B146F131E0075ED6C /* Project object */;
+}
