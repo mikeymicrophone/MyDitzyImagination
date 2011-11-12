@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A66B1030146F356F00471889 /* roses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A66B102F146F356F00471889 /* roses.jpg */; };
+		A66B1031146F356F00471889 /* roses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A66B102F146F356F00471889 /* roses.jpg */; };
 		A6A9D069146F131E0075ED6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D068146F131E0075ED6C /* UIKit.framework */; };
 		A6A9D06B146F131E0075ED6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D06A146F131E0075ED6C /* Foundation.framework */; };
 		A6A9D06D146F131E0075ED6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D06C146F131E0075ED6C /* CoreGraphics.framework */; };
@@ -23,6 +25,8 @@
 		A6A9D092146F131E0075ED6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D06A146F131E0075ED6C /* Foundation.framework */; };
 		A6A9D09A146F131E0075ED6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A9D098146F131E0075ED6C /* InfoPlist.strings */; };
 		A6A9D09D146F131E0075ED6C /* My_Ditzy_ImaginationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9D09C146F131E0075ED6C /* My_Ditzy_ImaginationTests.m */; };
+		A6A9D0D0146F1BCB0075ED6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D0CF146F1BCB0075ED6C /* QuartzCore.framework */; };
+		A6A9D0D1146F1BCB0075ED6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9D0CF146F1BCB0075ED6C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,30 +40,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A66B102F146F356F00471889 /* roses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roses.jpg; sourceTree = "<group>"; };
 		A6A9D064146F131E0075ED6C /* My Ditzy Imagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Ditzy Imagination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A9D068146F131E0075ED6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6A9D06A146F131E0075ED6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6A9D06C146F131E0075ED6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6A9D070146F131E0075ED6C /* My Ditzy Imagination-Info.plist */ = {isa = PBXFileReference; path = "My Ditzy Imagination-Info.plist"; sourceTree = "<group>"; };
+		A6A9D070146F131E0075ED6C /* My Ditzy Imagination-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Ditzy Imagination-Info.plist"; sourceTree = "<group>"; };
 		A6A9D072146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6A9D074146F131E0075ED6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6A9D076146F131E0075ED6C /* My Ditzy Imagination-Prefix.pch */ = {isa = PBXFileReference; path = "My Ditzy Imagination-Prefix.pch"; sourceTree = "<group>"; };
-		A6A9D077146F131E0075ED6C /* MCAppDelegate.h */ = {isa = PBXFileReference; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		A6A9D076146F131E0075ED6C /* My Ditzy Imagination-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Ditzy Imagination-Prefix.pch"; sourceTree = "<group>"; };
+		A6A9D077146F131E0075ED6C /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
 		A6A9D078146F131E0075ED6C /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
-		A6A9D07A146F131E0075ED6C /* MCRootViewController.h */ = {isa = PBXFileReference; path = MCRootViewController.h; sourceTree = "<group>"; };
+		A6A9D07A146F131E0075ED6C /* MCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCRootViewController.h; sourceTree = "<group>"; };
 		A6A9D07B146F131E0075ED6C /* MCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCRootViewController.m; sourceTree = "<group>"; };
-		A6A9D07D146F131E0075ED6C /* MCDataViewController.h */ = {isa = PBXFileReference; path = MCDataViewController.h; sourceTree = "<group>"; };
+		A6A9D07D146F131E0075ED6C /* MCDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDataViewController.h; sourceTree = "<group>"; };
 		A6A9D07E146F131E0075ED6C /* MCDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDataViewController.m; sourceTree = "<group>"; };
-		A6A9D080146F131E0075ED6C /* MCModelController.h */ = {isa = PBXFileReference; path = MCModelController.h; sourceTree = "<group>"; };
+		A6A9D080146F131E0075ED6C /* MCModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCModelController.h; sourceTree = "<group>"; };
 		A6A9D081146F131E0075ED6C /* MCModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCModelController.m; sourceTree = "<group>"; };
 		A6A9D084146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A6A9D087146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		A6A9D08E146F131E0075ED6C /* My Ditzy ImaginationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Ditzy ImaginationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A9D08F146F131E0075ED6C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A6A9D097146F131E0075ED6C /* My Ditzy ImaginationTests-Info.plist */ = {isa = PBXFileReference; path = "My Ditzy ImaginationTests-Info.plist"; sourceTree = "<group>"; };
+		A6A9D097146F131E0075ED6C /* My Ditzy ImaginationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Ditzy ImaginationTests-Info.plist"; sourceTree = "<group>"; };
 		A6A9D099146F131E0075ED6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A6A9D09B146F131E0075ED6C /* My_Ditzy_ImaginationTests.h */ = {isa = PBXFileReference; path = My_Ditzy_ImaginationTests.h; sourceTree = "<group>"; };
+		A6A9D09B146F131E0075ED6C /* My_Ditzy_ImaginationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = My_Ditzy_ImaginationTests.h; sourceTree = "<group>"; };
 		A6A9D09C146F131E0075ED6C /* My_Ditzy_ImaginationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Ditzy_ImaginationTests.m; sourceTree = "<group>"; };
+		A6A9D0CF146F1BCB0075ED6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				A6A9D069146F131E0075ED6C /* UIKit.framework in Frameworks */,
 				A6A9D06B146F131E0075ED6C /* Foundation.framework in Frameworks */,
 				A6A9D06D146F131E0075ED6C /* CoreGraphics.framework in Frameworks */,
+				A6A9D0D0146F1BCB0075ED6C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,7 @@
 				A6A9D090146F131E0075ED6C /* SenTestingKit.framework in Frameworks */,
 				A6A9D091146F131E0075ED6C /* UIKit.framework in Frameworks */,
 				A6A9D092146F131E0075ED6C /* Foundation.framework in Frameworks */,
+				A6A9D0D1146F1BCB0075ED6C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +116,7 @@
 		A6A9D067146F131E0075ED6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6A9D0CF146F1BCB0075ED6C /* QuartzCore.framework */,
 				A6A9D068146F131E0075ED6C /* UIKit.framework */,
 				A6A9D06A146F131E0075ED6C /* Foundation.framework */,
 				A6A9D06C146F131E0075ED6C /* CoreGraphics.framework */,
@@ -127,6 +136,7 @@
 				A6A9D07E146F131E0075ED6C /* MCDataViewController.m */,
 				A6A9D080146F131E0075ED6C /* MCModelController.h */,
 				A6A9D081146F131E0075ED6C /* MCModelController.m */,
+				A66B102F146F356F00471889 /* roses.jpg */,
 				A6A9D083146F131E0075ED6C /* MainStoryboard_iPhone.storyboard */,
 				A6A9D086146F131E0075ED6C /* MainStoryboard_iPad.storyboard */,
 				A6A9D06F146F131E0075ED6C /* Supporting Files */,
@@ -237,6 +247,7 @@
 				A6A9D073146F131E0075ED6C /* InfoPlist.strings in Resources */,
 				A6A9D085146F131E0075ED6C /* MainStoryboard_iPhone.storyboard in Resources */,
 				A6A9D088146F131E0075ED6C /* MainStoryboard_iPad.storyboard in Resources */,
+				A66B1030146F356F00471889 /* roses.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A9D09A146F131E0075ED6C /* InfoPlist.strings in Resources */,
+				A66B1031146F356F00471889 /* roses.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +395,10 @@
 		A6A9D0A1146F131E0075ED6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
 				INFOPLIST_FILE = "My Ditzy Imagination/My Ditzy Imagination-Info.plist";
@@ -394,6 +410,10 @@
 		A6A9D0A2146F131E0075ED6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
 				INFOPLIST_FILE = "My Ditzy Imagination/My Ditzy Imagination-Info.plist";
@@ -409,6 +429,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
@@ -426,6 +447,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Ditzy Imagination/My Ditzy Imagination-Prefix.pch";
@@ -455,6 +477,7 @@
 				A6A9D0A2146F131E0075ED6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6A9D0A3146F131E0075ED6C /* Build configuration list for PBXNativeTarget "My Ditzy ImaginationTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +486,7 @@
 				A6A9D0A5146F131E0075ED6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

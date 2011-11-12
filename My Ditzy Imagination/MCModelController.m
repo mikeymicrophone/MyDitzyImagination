@@ -10,6 +10,8 @@
 
 #import "MCDataViewController.h"
 
+//#import "UIImageView.h"
+
 /*
  A controller object that manages a simple model -- a collection of month names.
  
@@ -44,10 +46,19 @@
     if (([self.pageData count] == 0) || (index >= [self.pageData count])) {
         return nil;
     }
+    UIImage *image = [UIImage imageNamed:@"roses.jpg"];
+    NSLog(@"image: %@", image);
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    imageView.frame = CGRectMake(0, 20, 768, 1004);
+//    imageView.backgroundColor = [UIColor colorWithRed:25.0 green:30.0 blue:40.0 alpha:100.0];
     
     // Create a new view controller and pass suitable data.
     MCDataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"MCDataViewController"];
+    NSLog(@"view: %@", dataViewController.view);
+    NSLog(@"imageView: %@", imageView);
+    NSLog(@"image: %@", imageView.image);
     dataViewController.dataObject = [self.pageData objectAtIndex:index];
+    [dataViewController.view addSubview:imageView];
     return dataViewController;
 }
 
